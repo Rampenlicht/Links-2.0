@@ -38,21 +38,6 @@ p{
     margin: 27px auto;
 }
 
-.hotlinks {
-    position: relative;
-    background-color: transparent;
-    color: whitesmoke;
-    border-radius: 100px;
-    font-size: 1rem;
-    text-align: center ;
-    margin-bottom: 5px;
-    margin-top: 5px;
-    padding: 10px; /* 17px */
-    text-decoration: none;
-    width: 20px;
-    height: 20px;
-    -webkit-tap-highlight-color: transparent;
-}
 
 .link {
     position: relative;
@@ -70,6 +55,13 @@ p{
     text-decoration: none;
     -webkit-tap-highlight-color: transparent;
 }
+@media (hover: hover) {
+    .link:hover {
+        background-color: whitesmoke;
+        color: #223344;
+    }
+}
+
 
 #hashtag {
     position: relative;
